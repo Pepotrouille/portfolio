@@ -38,6 +38,32 @@ export default defineConfig((/* ctx */) => {
         node: 'node20',
       },
 
+      extendViteConf(viteConf) {
+        viteConf.resolve = viteConf.resolve || {};
+        viteConf.resolve.alias = {
+          ...(viteConf.resolve.alias || {}),
+          '@': `${__dirname}/src`,
+        };
+        viteConf.build = viteConf.build || {};
+        viteConf.build.rollupOptions = viteConf.build.rollupOptions || {};
+        viteConf.build.rollupOptions.output = viteConf.build.rollupOptions.output || {};
+        if (Array.isArray(viteConf.build.rollupOptions.output)) {
+          viteConf.build.rollupOptions.output.forEach((output) => {
+            output.sanitizeFileName = (name: string) => {
+              return name
+                .replace(/\s+/g, '-') // Replaces spaces with dashes.
+                .replace(/[^a-zA-Z0-9_.-]/g, ''); // Removes all invalid characters.
+            };
+          });
+        } else {
+          (viteConf.build.rollupOptions.output as any).sanitizeFileName = (name: string) => {
+            return name
+              .replace(/\s+/g, '-') // Replaces spaces with dashes.
+              .replace(/[^a-zA-Z0-9_.-]/g, ''); // Removes all invalid characters.
+          };
+        }
+      },
+
       typescript: {
         strict: true,
         vueShim: true,

@@ -1,7 +1,7 @@
 <template>
   <q-card flat class="timeline-card">
     <q-card-section class="title-font row q-pb-none">
-      <div class="col-6 q-mx-auto">{{ title.toUpperCase() }}</div>
+      <div class="col-6 q-mx-auto">{{ t('educationAndExperienceTitle').toUpperCase() }}</div>
     </q-card-section>
     <q-card-section>
       <q-timeline color="dark" class="q-px-xl">
@@ -35,21 +35,13 @@
 import { ref, watch } from 'vue';
 import { QCard, QCardSection, QTimeline, QTimelineEntry } from 'quasar';
 import type { TimelineItem } from 'components/models';
+import { t } from 'src/utilities/i18n';
 
 const props = defineProps<{
-  title: string;
   items: TimelineItem[];
 }>();
-const title = ref(props.title);
 const items = ref<TimelineItem[]>(props.items);
 
-// Watch for changes in props and update the refs accordingly
-watch(
-  () => props.title,
-  (newTitle: string) => {
-    title.value = newTitle;
-  },
-);
 watch(
   () => props.items,
   (newItems: TimelineItem[]) => {
@@ -63,6 +55,7 @@ watch(
   background-color: var(--q-primary);
   outline: 1rem solid;
   border-radius: 2rem;
+  outline-offset: -1rem;
 }
 
 .timeline-item-card {
