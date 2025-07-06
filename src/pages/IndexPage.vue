@@ -2,7 +2,7 @@
   <q-page class="row items-center justify-evenly bg-secondary text-dark q-pt-xl">
     <div class="content-width text-center q-gutter-xl q-mb-xl">
       <about-me-block />
-      <skills-block />
+      <skills-block :skillCategories="skillCategories" />
       <projects-block />
       <timeline-block
         class="col-12"
@@ -25,11 +25,12 @@ import SkillsBlock from 'src/components/blocs/SkillsBlock.vue';
 import ProjectsBlock from 'src/components/blocs/ProjectsBlock.vue';
 import SocialsBlock from 'src/components/blocs/SocialsBlock.vue';
 import FooterBlock from 'src/components/blocs/FooterBlock.vue';
-import type { TimelineItem } from 'src/components/models';
+import type { TimelineItem, SkillCategory } from 'src/components/models';
 import { ref } from 'vue';
 import { setLanguage } from 'src/utilities/i18n';
 
 const timelineItems = ref<TimelineItem[]>([]);
+const skillCategories = ref<SkillCategory[]>([]);
 
 const readTimelineItemsFromJSON = async () => {
   try {
@@ -41,9 +42,21 @@ const readTimelineItemsFromJSON = async () => {
   }
 };
 
+const readSkillsFromJSON = async () => {
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data/skills.json`);
+    const data = await response.json();
+    skillCategories.value = data;
+  } catch (error) {
+    console.error('Error fetching skills:', error);
+    return [];
+  }
+};
+
 onMounted(() => {
   setLanguage('fr');
   void readTimelineItemsFromJSON();
+  void readSkillsFromJSON();
 });
 </script>
 

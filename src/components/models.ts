@@ -16,3 +16,21 @@ export interface TimelineItem {
   icon?: string;
   color?: string;
 }
+
+export interface Skill {
+  id: string;
+  title?: string;
+  description?: string;
+  titleKey?: string;
+  descriptionKey?: string;
+  imageName?: string;
+  linkOnClick?: string;
+  categoryKey: string;
+  color?: string;
+}
+
+export interface SkillCategory {
+  id: string;
+  titleKey: string;
+  skills: Skill[];
+}

@@ -3,5 +3,22 @@
   "aboutMeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   "skillsTitle": "Compétences",
   "projectsTitle": "Projets",
-  "educationAndExperienceTitle": "Education et Expérience"
+  "educationAndExperienceTitle": "Education et Expérience",
+
+  "agileMethodology": "Méthodologie Agile",
+  "oopTitle": "Programmation Orientée Objet",
+
+  "englishLanguageTitle": "Anglais",
+  "englishLanguageDescription": "Professionnel, TOEIC 975/990",
+  "frenchLanguageTitle": "Français",
+  "frenchLanguageDescription": "Maternel",
+  "italianLanguageTitle": "Italien",
+  "italianLanguageDescription": "Conversationnel",
+  "germanLanguageTitle": "Allemand",
+  "germanLanguageDescription": "Notions",
+
+  "languages": "Langues",
+  "programmingLanguages": "Langages de programmation",
+  "webDevelopment": "Développement web",
+  "otherConceptsAndTechnologies": "Autres concepts et technologies"
 }
