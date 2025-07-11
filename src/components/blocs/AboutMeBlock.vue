@@ -24,6 +24,9 @@
         :label="t('downloadCV') + '&nbsp; ( FR )'"
         color="primary"
         class="q-mx-auto"
+        type="a"
+        :href="baseUrl + 'assets/documents/Brunetto_Marie-Resume_FR.pdf'"
+        download
       />
     </q-card-section>
   </q-card>
@@ -31,6 +34,7 @@
 
 <script lang="ts" setup>
 import { t } from 'src/utilities/i18n';
+const baseUrl: string = import.meta.env.BASE_URL || '/';
 </script>
 
 <style scoped>
