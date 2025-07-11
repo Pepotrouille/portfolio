@@ -1,13 +1,13 @@
 {
   "aboutMeTitle": "About Me",
-  "aboutMeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "aboutMeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "downloadCV": "Download CV",
+
   "skillsTitle": "Skills",
-  "projectsTitle": "Projects",
-  "educationAndExperienceTitle": "Education and Experience",
-
-  "agileMethodology": "Agile Methodology",
-  "oopTitle": "Object-Oriented Programming",
-
+  "languages": "Languages",
+  "programmingLanguages": "Programming Languages",
+  "webDevelopment": "Web Development",
+  "otherConceptsAndTechnologies": "Other Concepts and Technologies",
   "englishLanguageTitle": "English",
   "englishLanguageDescription": "Advanced, TOEIC 975/990",
   "frenchLanguageTitle": "French",
@@ -16,9 +16,10 @@
   "italianLanguageDescription": "Conversationnal",
   "germanLanguageTitle": "German",
   "germanLanguageDescription": "Notions",
+  "agileMethodology": "Agile Methodology",
+  "oopTitle": "Object-Oriented Programming",
 
-  "languages": "Languages",
-  "programmingLanguages": "Programming Languages",
-  "webDevelopment": "Web Development",
-  "otherConceptsAndTechnologies": "Other Concepts and Technologies"
+  "projectsTitle": "Projects",
+  "educationAndExperienceTitle": "Education and Experience",
+  "socialsTitle": "My socials"
 }

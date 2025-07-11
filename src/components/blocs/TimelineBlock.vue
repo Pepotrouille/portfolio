@@ -53,15 +53,16 @@ watch(
 <style scoped>
 .timeline-card {
   background-color: var(--q-primary);
-  outline: 1rem solid;
-  border-radius: 2rem;
+  outline: 0.5rem solid;
+  border-radius: 1.5rem;
   outline-offset: -1rem;
 }
 
 .timeline-item-card {
   background-color: var(--q-info);
-  border-bottom: 0.5rem solid;
-  border-radius: 0.5rem;
+  outline: 0.3rem solid;
+  border-radius: 1.5rem;
+  outline-offset: -0.8rem;
   text-align: left;
   padding: 0.1rem 2rem 0.5rem 2rem;
 }
@@ -75,5 +76,6 @@ watch(
 }
 .timeline-item-description {
   color: var(--q-dark);
+  text-align: justify;
 }
 </style>

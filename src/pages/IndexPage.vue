@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly bg-secondary text-dark q-pt-xl">
-    <div class="content-width text-center q-gutter-xl q-mb-xl">
+    <div class="content-width text-center q-gutter-xl q-pt-xl q-mb-xl">
       <about-me-block />
       <skills-block :skillCategories="skillCategories" />
       <projects-block />
