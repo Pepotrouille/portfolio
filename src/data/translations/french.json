@@ -1,0 +1,25 @@
+{
+  "aboutMeTitle": "À propos",
+  "aboutMeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "downloadCV": "Télécharger le CV",
+
+  "skillsTitle": "Compétences",
+  "languages": "Langues",
+  "programmingLanguages": "Langages de programmation",
+  "webDevelopment": "Développement web",
+  "otherConceptsAndTechnologies": "Autres concepts et technologies",
+  "englishLanguageTitle": "Anglais",
+  "englishLanguageDescription": "Professionnel, TOEIC 975/990",
+  "frenchLanguageTitle": "Français",
+  "frenchLanguageDescription": "Maternel",
+  "italianLanguageTitle": "Italien",
+  "italianLanguageDescription": "Conversationnel",
+  "germanLanguageTitle": "Allemand",
+  "germanLanguageDescription": "Notions",
+  "agileMethodology": "Méthodologie Agile",
+  "oopTitle": "Programmation Orientée Objet",
+
+  "projectsTitle": "Projets",
+  "educationAndExperienceTitle": "Éducation et Expérience",
+  "socialsTitle": "Mes réseaux"
+}
