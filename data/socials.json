@@ -1,0 +1,45 @@
+[
+  {
+    "id": "0001",
+    "title": "LinkedIn",
+    "imageName": "linkedin",
+    "linkOnClick": "https://www.linkedin.com/in/marie-brunetto/",
+    "color": "#8ABECE"
+  },
+  {
+    "id": "0002",
+    "title": "Github",
+    "imageName": "github",
+    "linkOnClick": "https://github.com/Pepotrouille"
+  },
+  {
+    "id": "0003",
+    "title": "Fiverr",
+    "imageName": "fiverr",
+    "linkOnClick": "https://www.fiverr.com/nekanos/",
+    "color": "#91C998"
+  },
+  {
+    "id": "0004",
+    "title": "Itch.io",
+    "descriptionKey": "videoGamesAndGameJams",
+    "imageName": "itchio",
+    "linkOnClick": "https://pepotrouille.itch.io/",
+    "color": "#9C525E"
+  },
+  {
+    "id": "0005",
+    "title": "Itch.io",
+    "descriptionKey": "gameAssetsAndScripts",
+    "imageName": "itchio",
+    "linkOnClick": "https://marie-pepo.itch.io/"
+  },
+  {
+    "id": "0006",
+    "title": "Email",
+    "descriptionKey": "professionalSoftwareEngineer",
+    "imageName": "mail",
+    "linkOnClick": "mailto:brunetto.marie@gmail.com",
+    "color": "#9C525E"
+  }
+]

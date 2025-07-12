@@ -1,0 +1,128 @@
+[
+  {
+    "id": "0001",
+    "titleKey": "programmingLanguages",
+    "skills": [
+      {
+        "id": "0001",
+        "title": "C",
+        "imageName": "c"
+      },
+      {
+        "id": "0002",
+        "title": "C#",
+        "imageName": "csharp"
+      },
+      {
+        "id": "0003",
+        "title": "Python",
+        "imageName": "python"
+      },
+      {
+        "id": "0004",
+        "title": "Java",
+        "imageName": "java"
+      },
+      {
+        "id": "0005",
+        "title": "JavaScript",
+        "imageName": "javascript"
+      },
+      {
+        "id": "0006",
+        "title": "TypeScript",
+        "imageName": "typescript"
+      }
+    ]
+  },
+  {
+    "id": "0002",
+    "titleKey": "webDevelopment",
+    "skills": [
+      {
+        "id": "0011",
+        "title": "Vue.js",
+        "imageName": "vuejs",
+        "linkOnClick": "https://vuejs.org/"
+      },
+      {
+        "id": "0013",
+        "title": "Quasar",
+        "imageName": "quasar",
+        "linkOnClick": "https://quasar.dev/"
+      },
+      {
+        "id": "0012",
+        "title": "NiceGUI",
+        "imageName": "nicegui",
+        "linkOnClick": "https://nicegui.io"
+      },
+      {
+        "id": "0014",
+        "title": "HTML",
+        "imageName": "html"
+      },
+      {
+        "id": "0015",
+        "title": "CSS",
+        "imageName": "css"
+      }
+    ]
+  },
+  {
+    "id": "0003",
+    "titleKey": "otherConceptsAndTechnologies",
+    "skills": [
+      {
+        "id": "0021",
+        "titleKey": "oopTitle",
+        "imageName": "oop"
+      },
+      {
+        "id": "0022",
+        "title": "SQL",
+        "imageName": "sql"
+      },
+      {
+        "id": "0023",
+        "title": "Github",
+        "imageName": "github"
+      },
+      {
+        "id": "0024",
+        "titleKey": "agileMethodology",
+        "imageName": "agile"
+      }
+    ]
+  },
+  {
+    "id": "0004",
+    "titleKey": "languages",
+    "skills": [
+      {
+        "id": "0031",
+        "titleKey": "englishLanguageTitle",
+        "descriptionKey": "englishLanguageDescription",
+        "imageName": "english"
+      },
+      {
+        "id": "0032",
+        "titleKey": "frenchLanguageTitle",
+        "descriptionKey": "frenchLanguageDescription",
+        "imageName": "french"
+      },
+      {
+        "id": "0033",
+        "titleKey": "italianLanguageTitle",
+        "descriptionKey": "italianLanguageDescription",
+        "imageName": "italian"
+      },
+      {
+        "id": "0034",
+        "titleKey": "germanLanguageTitle",
+        "descriptionKey": "germanLanguageDescription",
+        "imageName": "german"
+      }
+    ]
+  }
+]
