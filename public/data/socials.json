@@ -41,12 +41,5 @@
     "imageName": "mail",
     "linkOnClick": "mailto:brunetto.marie@gmail.com",
     "color": "#9C525E"
-  },
-  {
-    "id": "0007",
-    "title": "Email",
-    "descriptionKey": "pixelArtistEI",
-    "imageName": "mail",
-    "linkOnClick": "mailto:marie.pepo.ei@gmail.com"
   }
 ]
