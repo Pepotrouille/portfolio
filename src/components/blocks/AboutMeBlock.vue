@@ -13,7 +13,7 @@
         </q-card-section>
       </q-card>
     </q-card-section>
-    <q-card-section class="row q-mx-xl text-justify">
+    <q-card-section class="row q-mx-xl text-justify description-text">
       <div class="col-12">{{ t('aboutMeDescription') }}</div>
     </q-card-section>
     <q-card-section class="row q-pb-lg">
@@ -43,5 +43,8 @@ const baseUrl: string = import.meta.env.BASE_URL || '/';
   top: -100px;
   right: 160px;
   z-index: 2;
+}
+.description-text {
+  font-size: 16px;
 }
 </style>
