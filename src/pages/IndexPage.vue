@@ -11,7 +11,7 @@
         :items="timelineItems"
         separator
       />
-      <socials-block />
+      <socials-block :socials="socials" />
     </div>
     <footer-block class="col-12 text-center" />
   </q-page>
@@ -19,18 +19,19 @@
 
 <script setup lang="ts">
 import { onMounted } from 'vue';
-import AboutMeBlock from 'src/components/blocs/AboutMeBlock.vue';
-import TimelineBlock from 'src/components/blocs/TimelineBlock.vue';
-import SkillsBlock from 'src/components/blocs/SkillsBlock.vue';
-import ProjectsBlock from 'src/components/blocs/ProjectsBlock.vue';
-import SocialsBlock from 'src/components/blocs/SocialsBlock.vue';
-import FooterBlock from 'src/components/blocs/FooterBlock.vue';
-import type { TimelineItem, SkillCategory } from 'src/components/models';
+import AboutMeBlock from 'src/components/blocks/AboutMeBlock.vue';
+import TimelineBlock from 'src/components/blocks/TimelineBlock.vue';
+import SkillsBlock from 'src/components/blocks/SkillsBlock.vue';
+import ProjectsBlock from 'src/components/blocks/ProjectsBlock.vue';
+import SocialsBlock from 'src/components/blocks/SocialsBlock.vue';
+import FooterBlock from 'src/components/blocks/FooterBlock.vue';
+import type { TimelineItem, SkillCategory, Social } from 'src/components/models';
 import { ref } from 'vue';
 import { setLanguage } from 'src/utilities/i18n';
 
 const timelineItems = ref<TimelineItem[]>([]);
 const skillCategories = ref<SkillCategory[]>([]);
+const socials = ref<Social[]>([]);
 
 const readTimelineItemsFromJSON = async () => {
   try {
@@ -53,10 +54,22 @@ const readSkillsFromJSON = async () => {
   }
 };
 
+const readSocialsFromJSON = async () => {
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data/socials.json`);
+    const data = await response.json();
+    socials.value = data;
+  } catch (error) {
+    console.error('Error fetching socials:', error);
+    return [];
+  }
+};
+
 onMounted(() => {
   setLanguage('fr');
   void readTimelineItemsFromJSON();
   void readSkillsFromJSON();
+  void readSocialsFromJSON();
 });
 </script>
 

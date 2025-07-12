@@ -8,7 +8,11 @@
         <div v-for="category in skillCategories" :key="category.id" class="q-mb-md col-12">
           <h5 class="text-h5 q-mb-md q-mt-md">{{ t(category.titleKey) }}</h5>
           <div class="row q-gutter-sm col-12 justify-center">
-            <skill-chip v-for="skill in category.skills" :key="skill.id" :skill="skill" />
+            <hexagonal-chip
+              v-for="skill in category.skills"
+              :key="skill.id"
+              :hexagon-information="skill"
+            />
           </div>
         </div>
       </div>
@@ -18,7 +22,7 @@
 
 <script lang="ts" setup>
 import { t } from 'src/utilities/i18n';
-import SkillChip from 'src/components/elements/SkillChip.vue';
+import HexagonalChip from 'src/components/elements/HexagonalChip.vue';
 import { ref, watch } from 'vue';
 import type { SkillCategory } from 'src/components/models';
 const props = defineProps<{
