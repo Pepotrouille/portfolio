@@ -17,7 +17,7 @@ export interface TimelineItem {
   color?: string;
 }
 
-export interface Skill {
+export interface HexagonInformation {
   id: string;
   title?: string;
   description?: string;
@@ -29,8 +29,12 @@ export interface Skill {
   color?: string;
 }
 
+export type Skill = HexagonInformation;
+
 export interface SkillCategory {
   id: string;
   titleKey: string;
   skills: Skill[];
 }
+
+export type Social = HexagonInformation;

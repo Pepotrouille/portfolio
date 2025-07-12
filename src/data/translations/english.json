@@ -21,5 +21,10 @@
 
   "projectsTitle": "Projects",
   "educationAndExperienceTitle": "Education and Experience",
-  "socialsTitle": "My socials"
+
+  "socialsTitle": "My socials",
+  "gameAssetsAndScripts": "Game Assets and Scripts",
+  "videoGamesAndGameJams": "Video Games and Game Jams",
+  "professionalSoftwareEngineer": "My software engineer contact",
+  "pixelArtistEI": "My freelance pixel artist contact"
 }
