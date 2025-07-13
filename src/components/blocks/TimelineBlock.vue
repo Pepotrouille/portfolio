@@ -13,7 +13,7 @@
         >
           <div class="timeline-item-card">
             <h5 class="timeline-item-title">
-              {{ item.titleKey ? t(item.titleKey) : item.title || '' }}
+              {{ item.titleKey ? t(item.titleKey) : '' }}
             </h5>
             <p class="timeline-item-place">
               {{ item.placeKey ? `${t(item.placeKey)}` : '' }}
@@ -30,13 +30,7 @@
               }}
             </p>
             <p class="timeline-item-description">
-              {{
-                item.description
-                  ? item.description
-                  : item.descriptionKey
-                    ? t(item.descriptionKey)
-                    : ''
-              }}
+              {{ item.descriptionKey ? t(item.descriptionKey) : '' }}
             </p>
           </div>
         </q-timeline-entry>

@@ -9,9 +9,7 @@ export interface Meta {
 
 export interface TimelineItem {
   id: string;
-  title?: string;
-  titleKey?: string;
-  description?: string;
+  titleKey: string;
   descriptionKey?: string;
   date1: string;
   date2?: string;
