@@ -12,7 +12,12 @@
           :color="item.color"
         >
           <div class="timeline-item-card">
-            <h5 class="timeline-item-title">{{ item.title }}</h5>
+            <h5 class="timeline-item-title">
+              {{ item.titleKey ? t(item.titleKey) : '' }}
+            </h5>
+            <p class="timeline-item-place">
+              {{ item.placeKey ? `${t(item.placeKey)}` : '' }}
+            </p>
             <p class="timeline-item-date">
               {{
                 item.date1 && item.date2
@@ -24,7 +29,9 @@
                       : ''
               }}
             </p>
-            <p class="timeline-item-description">{{ item.description ? item.description : '' }}</p>
+            <p class="timeline-item-description">
+              {{ item.descriptionKey ? t(item.descriptionKey) : '' }}
+            </p>
           </div>
         </q-timeline-entry>
       </q-timeline>
@@ -74,8 +81,12 @@ watch(
 .timeline-item-date {
   color: var(--q-accent);
 }
+.timeline-item-place {
+  margin-bottom: 5px;
+}
 .timeline-item-description {
   color: var(--q-dark);
   text-align: justify;
+  white-space: pre-line;
 }
 </style>
