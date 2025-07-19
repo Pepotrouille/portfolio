@@ -18,7 +18,6 @@ const props = defineProps<{
   socials: Social[];
 }>();
 const socials = ref<Social[]>(props.socials);
-console.log('props.socials:', props.socials);
 watch(
   () => props.socials,
   (newSocials: Social[]) => {

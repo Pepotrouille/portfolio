@@ -1,4 +1,5 @@
 {
+  "language": "Language",
   "aboutMeTitle": "About Me",
   "aboutMeDescription": "My name is Marie. I am a software engineer who graduated from the National Institute of Applied Sciences, or INSA, from Toulouse, France. I work in software and web development, and I am also interested in video game development. In this portfolio, you will be able to discover my skills, the projects that I lead and participated in, my education and finally, my socials and contact information.",
   "downloadCV": "Download Resume",
@@ -31,7 +32,7 @@
   "softwareDeveloper": "Software Developer",
   "tasTurinDescription": " - Development of a library for the Capella software\n - Conversion of data from various software into Python to import them into Unreal Engine\n - Writing documentation for the work done\n - Reporting tasks in Italian and English",
   "tasTurinItaly": "Thales Alenia Space - Turin, Italy",
-  "computerScienceDegree": "Computer Science and Networks Engineering Degree",
+  "computerScienceMaster": "Computer Science and Networks Engineering Master",
   "insaDescription": "Common core training 2020-2021\nPre-orientation in Modeling, Computer Science, and Communication (MIC) 2021-2023\nSpecialization in Computer Science and Networks Engineering (IR) 2023-2025\n\nCourses taken: \n - Statistics, Analysis, Algebra, Linear Programming\n - Advanced Algorithms, Object-Oriented Programming, Web Programming (HTML, CSS, JavaScript), C language, Python\n - Networks, Operating Systems, Database Management",
   "insaToulouseFrance": "INSA - Toulouse, France",
   "highschoolDiplomaTitle": "Scientific Baccalaureate",
