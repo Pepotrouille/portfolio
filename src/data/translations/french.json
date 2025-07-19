@@ -1,4 +1,5 @@
 {
+  "language": "Langue",
   "aboutMeTitle": "À propos",
   "aboutMeDescription": "Je m’appelle Marie. Je suis une ingénieure logiciel diplômée de l’INSA, Institut National des Sciences Appliquées de Toulouse. Je travaille dans le développement web et logiciel, mais je suis également passionnée par le développement de jeux vidéo. À travers ce portfolio, vous pourrez découvrir mes compétences, les projets qui j’ai suivi et menés, mon éducation et enfin accéder à mes contacts et réseaux.",
   "downloadCV": "Télécharger le CV",
@@ -31,7 +32,7 @@
   "softwareDeveloper": "Développeuse Logiciel",
   "tasTurinDescription": " - Développement d'une librairie pour le logiciel Capella\n - Conversion des données de divers logiciels en Python afin de les importer dans Unreal Engine\n - Rédaction de la documentation pour le travail réalisé\n - Compte rendu des tâches en italien et en anglais",
   "tasTurinItaly": "Thales Alenia Space - Turin, Italie",
-  "computerScienceDegree": "Diplôme d'ingénieur en informatique et réseaux",
+  "computerScienceMaster": "Diplôme d'ingénieur en informatique et réseaux",
   "insaDescription": "Formation en tronc commun 2020-2021\nPré-orientation en Modélisation, Informatique et Communication (MIC) 2021-2023\nSpécialité Ingénieur en Informatique et Réseaux (IR) 2023-2025\n\nCours suivis : \n - Statistiques, Analyse, Algèbre, Programmation linéaire\n - Algorithmique avancée, Programmation Orientée Objet, Programmation Web (HTML, CSS, JavaScript), language C, Python\n - Réseaux, Systèmes d'exploitations, Gestion de base de donnée",
   "insaToulouseFrance": "INSA - Toulouse, France",
   "highschoolDiplomaTitle": "Baccalauréat Scientifique",

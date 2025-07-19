@@ -13,7 +13,6 @@
       />
       <socials-block :socials="socials" />
     </div>
-    <footer-block class="col-12 text-center" />
   </q-page>
 </template>
 
@@ -24,10 +23,8 @@ import TimelineBlock from 'src/components/blocks/TimelineBlock.vue';
 import SkillsBlock from 'src/components/blocks/SkillsBlock.vue';
 import ProjectsBlock from 'src/components/blocks/ProjectsBlock.vue';
 import SocialsBlock from 'src/components/blocks/SocialsBlock.vue';
-import FooterBlock from 'src/components/blocks/FooterBlock.vue';
 import type { TimelineItem, SkillCategory, Social } from 'src/components/models';
 import { ref } from 'vue';
-import { setLanguage } from 'src/utilities/i18n';
 
 const timelineItems = ref<TimelineItem[]>([]);
 const skillCategories = ref<SkillCategory[]>([]);
@@ -66,7 +63,6 @@ const readSocialsFromJSON = async () => {
 };
 
 onMounted(() => {
-  setLanguage('fr');
   void readTimelineItemsFromJSON();
   void readSkillsFromJSON();
   void readSocialsFromJSON();

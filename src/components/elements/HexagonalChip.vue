@@ -63,7 +63,6 @@
 import type { HexagonInformation } from 'src/components/models';
 import { t } from 'src/utilities/i18n';
 import SmoothHexagon from 'src/components/shapes/SmoothHexagon.vue';
-import { onMounted } from 'vue';
 
 const props = defineProps<{
   hexagonInformation: HexagonInformation;
@@ -73,18 +72,8 @@ const baseUrl: string = import.meta.env.BASE_URL || '/';
 const handleClick = () => {
   if (props.hexagonInformation.linkOnClick) {
     open(props.hexagonInformation.linkOnClick || '');
-    console.log(
-      `Clicked on hexagonInformation: ${props.hexagonInformation.title || props.hexagonInformation.titleKey}`,
-    );
   }
 };
-
-onMounted(() => {
-  console.log(
-    `HexagonalChip component mounted with hexagonInformation: ${props.hexagonInformation.color}`,
-  );
-  console.log(props.hexagonInformation);
-});
 </script>
 
 <style scoped>
