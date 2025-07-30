@@ -1,17 +1,18 @@
 <template>
   <q-page class="row items-center justify-evenly bg-secondary text-dark q-pt-xl">
     <div class="content-width text-center q-gutter-xl q-pt-xl q-mb-xl">
-      <about-me-block />
-      <skills-block :skillCategories="skillCategories" />
-      <projects-block />
+      <about-me-block id="about-me-block" />
+      <skills-block id="skills-block" :skillCategories="skillCategories" />
+      <projects-block id="projects-block" />
       <timeline-block
+        id="timeline-block"
         class="col-12"
         title="Experiences et Education"
         dense
         :items="timelineItems"
         separator
       />
-      <socials-block :socials="socials" />
+      <socials-block id="social-block" :socials="socials" />
     </div>
   </q-page>
 </template>

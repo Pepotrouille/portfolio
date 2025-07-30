@@ -1,5 +1,5 @@
 <template>
-  <q-card>
+  <q-card id="social-block">
     <q-card-section class="title-font row q-pb-none">
       <div class="col-6 q-mx-auto">{{ t('socialsTitle').toUpperCase() }}</div>
     </q-card-section>
