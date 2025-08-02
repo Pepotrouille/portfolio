@@ -3,7 +3,7 @@
     <div class="content-width text-center q-gutter-xl q-pt-xl q-mb-xl">
       <about-me-block id="about-me-block" />
       <skills-block id="skills-block" :skillCategories="skillCategories" />
-      <projects-block id="projects-block" />
+      <projects-block id="projects-block" :projects="projects" />
       <timeline-block
         id="timeline-block"
         class="col-12"
@@ -24,12 +24,13 @@ import TimelineBlock from 'src/components/blocks/TimelineBlock.vue';
 import SkillsBlock from 'src/components/blocks/SkillsBlock.vue';
 import ProjectsBlock from 'src/components/blocks/ProjectsBlock.vue';
 import SocialsBlock from 'src/components/blocks/SocialsBlock.vue';
-import type { TimelineItem, SkillCategory, Social } from 'src/components/models';
+import type { TimelineItem, SkillCategory, Social, Project } from 'src/components/models';
 import { ref } from 'vue';
 
 const timelineItems = ref<TimelineItem[]>([]);
 const skillCategories = ref<SkillCategory[]>([]);
 const socials = ref<Social[]>([]);
+const projects = ref<Project[]>([]);
 
 const readTimelineItemsFromJSON = async () => {
   try {
@@ -63,10 +64,25 @@ const readSocialsFromJSON = async () => {
   }
 };
 
+const readProjectsFromJSON = async () => {
+  try {
+    const response = await fetch(`${import.meta.env.BASE_URL}data/projects.json`);
+    const data = await response.json();
+    projects.value = data;
+    console.log('projects.value aaa', projects.value);
+    return data;
+  } catch (error) {
+    console.error('Error fetching projects:', error);
+    return [];
+  }
+};
+
 onMounted(() => {
   void readTimelineItemsFromJSON();
   void readSkillsFromJSON();
   void readSocialsFromJSON();
+  void readProjectsFromJSON();
+  console.log('projects.value', projects.value);
 });
 </script>
 

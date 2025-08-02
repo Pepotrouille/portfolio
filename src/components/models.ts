@@ -18,6 +18,16 @@ export interface TimelineItem {
   color?: string;
 }
 
+export interface Project {
+  id: string;
+  titleKey: string;
+  descriptionKey?: string;
+  categoryKey: string;
+  linkOnClick?: string;
+  skillKeys?: string[];
+  imageName?: string;
+}
+
 export interface HexagonInformation {
   id: string;
   title?: string;
