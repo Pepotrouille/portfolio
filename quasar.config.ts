@@ -118,6 +118,7 @@ export default defineConfig((/* ctx */) => {
           secondary: '#B3D3E0',
           accent: '#DD7E30',
           dark: '#3D2626',
+          dark_low_opacity: '#3D2626D0',
           positive: '#D8E9F0',
           info: '#FCFDFF',
         },
