@@ -1,0 +1,72 @@
+[
+  {
+    "id": "portfolio",
+    "titleKey": "portfolioProjectTitle",
+    "descriptionKey": "portfolioProjectDescription",
+    "imageName": "portfolioFigma1.png",
+    "categoryKey": "softwareWeb",
+    "linkOnClick": "https://github.com/Pepotrouille/portfolio",
+    "skillKeys": ["Vue.JS", "Figma", "Quasar", "Typescript", "Github", "noSQL"]
+  },
+  {
+    "id": "googleSheets",
+    "titleKey": "googleSheetsProjectTitle",
+    "descriptionKey": "googleSheetsProjectDescription",
+    "imageName": "googleSheetsBackground.png",
+    "categoryKey": "other",
+    "skillKeys": ["Google Sheets", "Apps Script"]
+  },
+  {
+    "id": "freelance",
+    "titleKey": "freelanceProjectTitle",
+    "descriptionKey": "freelanceProjectDescription",
+    "imageName": "freelance1.png",
+    "categoryKey": "gameDev",
+    "linkOnClick": "https://www.fiverr.com/nekanos",
+    "skillKeys": ["Pixel Art", "customerContact", "graphics", "Google Sheets", "english", "italian"]
+  },
+  {
+    "id": "unityFormation",
+    "titleKey": "unityFormationProjectTitle",
+    "descriptionKey": "unityFormationProjectDescription",
+    "imageName": "formationUnity.png",
+    "categoryKey": "gameDev",
+    "skillKeys": ["Unity", "formation", "C#"]
+  },
+  {
+    "id": "l2Speak",
+    "titleKey": "l2SpeakProjectTitle",
+    "descriptionKey": "l2SpeakProjectDescription",
+    "imageName": "L2SpeakMain.png",
+    "categoryKey": "gameDev",
+    "linkOnClick": "https://www.kickstarter.com/projects/jeffreyha/l2-speak/description",
+    "skillKeys": ["english", "customerContact", "Pixel Art", "C#"]
+  },
+  {
+    "id": "jourDeNeige",
+    "titleKey": "jourDeNeigeProjectTitle",
+    "descriptionKey": "jourDeNeigeProjectDescription",
+    "categoryKey": "gameDev",
+    "imageName": "JourDeNeige2.png",
+    "linkOnClick": "https://pepotrouille.itch.io/jour-de-neige",
+    "skillKeys": ["Unity", "graphics", "Pixel Art", "C#"]
+  },
+  {
+    "id": "colorsVN",
+    "titleKey": "colorsVNProjectTitle",
+    "descriptionKey": "colorsVNProjectDescription",
+    "imageName": "colors1.jpg",
+    "categoryKey": "gameDev",
+    "linkOnClick": "https://kiminako.itch.io/colors",
+    "skillKeys": ["Renpy", "graphics", "C#"]
+  },
+  {
+    "id": "asepriteScripts",
+    "titleKey": "asepriteScriptsProjectTitle",
+    "descriptionKey": "asepriteScriptsProjectDescription",
+    "imageName": "scripts1.png",
+    "categoryKey": "other",
+    "linkOnClick": "https://itch.io/c/3462245/scripts",
+    "skillKeys": ["Lua"]
+  }
+]

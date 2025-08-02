@@ -1,0 +1,48 @@
+[
+  {
+    "id": "004",
+    "titleKey": "softwareEngineer",
+    "descriptionKey": "tasToulouseDescription",
+    "date1": "09/2024",
+    "date2": "09/2025",
+    "placeKey": "tasToulouseFrance"
+  },
+  {
+    "id": "002",
+    "titleKey": "webDeveloper",
+    "descriptionKey": "avlDescription",
+    "date1": "06/2024",
+    "date2": "09/2024",
+    "placeKey": "avlRegensburgGermany"
+  },
+  {
+    "id": "003",
+    "titleKey": "softwareDeveloper",
+    "descriptionKey": "tasTurinDescription",
+    "date1": "06/2023",
+    "date2": "09/2023"
+  },
+  {
+    "id": "001",
+    "titleKey": "computerScienceMaster",
+    "descriptionKey": "insaDescription",
+    "date1": "2020",
+    "date2": "2025",
+    "placeKey": "insaToulouseFrance"
+  },
+  {
+    "id": "005",
+    "titleKey": "pixelArtFreelanceTitle",
+    "descriptionKey": "pixelArtFreelanceDescription",
+    "date1": "2020",
+    "date2": "2025"
+  },
+  {
+    "id": "006",
+    "titleKey": "highschoolDiplomaTitle",
+    "descriptionKey": "highschoolDiplomaDescription",
+    "date1": "2017",
+    "date2": "2020",
+    "placeKey": "costebelleHyeresFrance"
+  }
+]
