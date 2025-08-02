@@ -27,6 +27,8 @@
   "formation": "Formation",
   "graphics": "Graphics",
   "customerContact": "Customer contact",
+  "english": "English",
+  "italian": "Italian",
   "portfolioProjectTitle": "Portfolio",
   "portfolioProjectDescription": "This portfolio is a personal project that I developed to showcase my skills and projects. It is built with Vue.js, Quasar, and Typescript. The source code is available on my GitHub.",
   "googleSheetsProjectTitle": "Google Sheets Project",

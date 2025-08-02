@@ -23,7 +23,7 @@
     "imageName": "freelance1.png",
     "categoryKey": "gameDev",
     "linkOnClick": "https://www.fiverr.com/nekanos",
-    "skillKeys": ["Pixel Art", "customerContact", "graphics", "Google Sheets"]
+    "skillKeys": ["Pixel Art", "customerContact", "graphics", "Google Sheets", "english", "italian"]
   },
   {
     "id": "unityFormation",
